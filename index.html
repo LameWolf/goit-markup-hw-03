@@ -15,11 +15,13 @@
 </head>
 
 <body>
+
   <!-- Шапка сайта -->
+
   <header class="header-index">
-    <div class="container-header">
+    <div class="container header">
       <a class="logo-h" href="#">Web<span class="logo-text-h">Studio</span></a>
-      <nav>
+      <nav class="header-nav">
         <ul class="site-nav">
           <li class="item-nav">
             <a href="./index.html" class="link current">Студия</a>
@@ -33,20 +35,26 @@
         </ul>
       </nav>
       <address class="address-h">
-        <a class="contacts-h" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="contacts-h" href="tel:+380961111111">+38 096 111 11 11</a>
+        <ul class="address-list-h">
+          <li class="contacts-h"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="contacts-h"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
       </address>
     </div>
   </header>
   <main>
+
     <!-- Герой -->
+
     <section class="hero">
-      <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
+      <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
       <button class="hero-order">Заказать услугу</button>
     </section>
+
     <!-- Преимущества -->
+
     <section class="advantages">
-      <div class="container-advantages">
+      <div class="container c-advantages">
         <h2 class="visually-hidden">Преимущества</h2>
         <ul class="advantages-list">
           <li class="advantages-item">
@@ -80,9 +88,11 @@
         </ul>
       </div>
     </section>
+
     <!-- Чем мы занимаемся -->
+
     <section class="activity">
-      <div class="container-activity">
+      <div class="container">
         <h2 class="activity-title">Чем мы занимаемся</h2>
         <ul class="activity-list">
           <li class="activity-item">
@@ -97,9 +107,11 @@
         </ul>
       </div>
     </section>
+
     <!-- Наша команда -->
+
     <section class="team">
-      <div class="container-team">
+      <div class="container c-team">
         <h2 class="team-title">Наша команда</h2>
         <ul class="team-list">
           <li class="team-item">
@@ -142,19 +154,19 @@
       </div>
     </section>
   </main>
+
   <!-- Подвал -->
+
   <footer class="footer">
-    <div class="container-footer">
+    <div class="container">
       <div class="logo-f-footer">
         <a class="logo-f" href="#">Web<span class="logo-text-f">Studio</span></a>
       </div>
-      <address id="contacts" class="address">
-        <div class="footer-address">
-          <a class="address-f" href="#">г. Киев, пр-т Леси Украинки, 26</a>
-          <a class="contacts-f" href="mailto:info@example.com">info@example.com</a>
-          <a class="contacts-f" href="tel:+380991111111">+38 099 111 11 11</a>
-        </div>
-      </address>
+      <ul id="contacts" class="footer-address">
+        <li class="footer-item"><a class="address-f" href="#">г. Киев, пр-т Леси Украинки, 26</a></li>
+        <li class="footer-item"><a class="contacts-f" href="mailto:info@example.com">info@example.com</a></li>
+        <li class="footer-item"><a class="contacts-f" href="tel:+380991111111">+38 099 111 11 11</a></li>
+      </ul>
     </div>
   </footer>
 </body>
