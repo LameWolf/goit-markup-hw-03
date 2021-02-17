@@ -98,7 +98,7 @@ ul {
 
 .header-index {
   border-bottom: 1px solid #ececec;
-  background-color: var (var(--white-text));
+  background-color: var(--white-text);
 }
 
 .header-nav {
